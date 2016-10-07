@@ -9,12 +9,13 @@
 /* Begin PBXBuildFile section */
 		AFF9CD761DA5646A00FAF511 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AFF9CD751DA5646A00FAF511 /* main.m */; };
 		AFF9CD791DA5646A00FAF511 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AFF9CD781DA5646A00FAF511 /* AppDelegate.m */; };
-		AFF9CD7C1DA5646A00FAF511 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AFF9CD7B1DA5646A00FAF511 /* ViewController.m */; };
 		AFF9CD7F1DA5646A00FAF511 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AFF9CD7D1DA5646A00FAF511 /* Main.storyboard */; };
 		AFF9CD811DA5646A00FAF511 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AFF9CD801DA5646A00FAF511 /* Assets.xcassets */; };
 		AFF9CD841DA5646A00FAF511 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AFF9CD821DA5646A00FAF511 /* LaunchScreen.storyboard */; };
 		AFF9CD8F1DA5646A00FAF511 /* UITextviewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AFF9CD8E1DA5646A00FAF511 /* UITextviewTests.m */; };
 		AFF9CD9A1DA5646A00FAF511 /* UITextviewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = AFF9CD991DA5646A00FAF511 /* UITextviewUITests.m */; };
+		AFF9CDA91DA5663700FAF511 /* TasksTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AFF9CDA81DA5663700FAF511 /* TasksTableViewController.m */; };
+		AFF9CDAC1DA5703600FAF511 /* Task.m in Sources */ = {isa = PBXBuildFile; fileRef = AFF9CDAB1DA5703600FAF511 /* Task.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,8 +40,6 @@
 		AFF9CD751DA5646A00FAF511 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		AFF9CD771DA5646A00FAF511 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		AFF9CD781DA5646A00FAF511 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		AFF9CD7A1DA5646A00FAF511 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		AFF9CD7B1DA5646A00FAF511 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		AFF9CD7E1DA5646A00FAF511 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		AFF9CD801DA5646A00FAF511 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AFF9CD831DA5646A00FAF511 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,6 +50,10 @@
 		AFF9CD951DA5646A00FAF511 /* UITextviewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UITextviewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AFF9CD991DA5646A00FAF511 /* UITextviewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UITextviewUITests.m; sourceTree = "<group>"; };
 		AFF9CD9B1DA5646A00FAF511 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AFF9CDA71DA5663700FAF511 /* TasksTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TasksTableViewController.h; sourceTree = "<group>"; };
+		AFF9CDA81DA5663700FAF511 /* TasksTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TasksTableViewController.m; sourceTree = "<group>"; };
+		AFF9CDAA1DA5703600FAF511 /* Task.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Task.h; sourceTree = "<group>"; };
+		AFF9CDAB1DA5703600FAF511 /* Task.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Task.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,9 +106,11 @@
 			children = (
 				AFF9CD771DA5646A00FAF511 /* AppDelegate.h */,
 				AFF9CD781DA5646A00FAF511 /* AppDelegate.m */,
-				AFF9CD7A1DA5646A00FAF511 /* ViewController.h */,
-				AFF9CD7B1DA5646A00FAF511 /* ViewController.m */,
 				AFF9CD7D1DA5646A00FAF511 /* Main.storyboard */,
+				AFF9CDA71DA5663700FAF511 /* TasksTableViewController.h */,
+				AFF9CDA81DA5663700FAF511 /* TasksTableViewController.m */,
+				AFF9CDAA1DA5703600FAF511 /* Task.h */,
+				AFF9CDAB1DA5703600FAF511 /* Task.m */,
 				AFF9CD801DA5646A00FAF511 /* Assets.xcassets */,
 				AFF9CD821DA5646A00FAF511 /* LaunchScreen.storyboard */,
 				AFF9CD851DA5646A00FAF511 /* Info.plist */,
@@ -273,8 +278,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AFF9CD7C1DA5646A00FAF511 /* ViewController.m in Sources */,
+				AFF9CDAC1DA5703600FAF511 /* Task.m in Sources */,
 				AFF9CD791DA5646A00FAF511 /* AppDelegate.m in Sources */,
+				AFF9CDA91DA5663700FAF511 /* TasksTableViewController.m in Sources */,
 				AFF9CD761DA5646A00FAF511 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
